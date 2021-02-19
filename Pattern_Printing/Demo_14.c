@@ -10,9 +10,9 @@ int main()
     {
         for(j= 1; j <= col ; j++)
         {
-            if( i == 5 || j == 1 || i==j || i==4 && j<5 || i==3 && j<4 )
+            if( i == 1 || j == 1 || i+j==6 || i==2 && j<5 || i==3 && j<4 )
             {
-                printf("\t%c",j+64);
+                printf("\t*");
             }
             else
             {
