@@ -4,7 +4,9 @@
  *   *   *
  * *   * *
  * * * * *
-*/#include<stdio.h>
+*/
+
+#include<stdio.h>
 
 int main()
 {
@@ -13,7 +15,7 @@ int main()
     printf("Enter a Number:\n");
     scanf("%d",&No);
 
-    for(i= 1;i <= No ;i++)
+    for(i = 1;i <= No ;i++)
     {
          for(j= 1;j <= No ;j++)
          {
