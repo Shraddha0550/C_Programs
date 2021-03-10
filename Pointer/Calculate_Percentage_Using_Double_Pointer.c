@@ -8,7 +8,7 @@ float Calc_Total(int *iTotal ,int **iptr)
     for(i = 0; i < 3 ; i++)
     {
 
-         *iTotal = *iTotal + (*iptr)[i];
+         *iTotal += (*iptr)[i];
 
     }
     per = *iTotal * 100 / 300;
