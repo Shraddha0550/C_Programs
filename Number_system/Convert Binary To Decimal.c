@@ -18,4 +18,6 @@ int main()
     printf(" The Conversion Of Binary To Decimal Number:%d",res);
 
     getchar();
+    
+    Return 0;
 }
