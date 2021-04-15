@@ -7,9 +7,9 @@ int main()
     printf("Enter number of rows:\n ");
     scanf("%d", &No);
 
-    for(i=1; i<=No; i++)
+    for(i = 1; i <= No; i++)
     {
-        for(j=1; j<=No; j++)
+        for(j = 1; j <= No; j++)
         {
             if(i == j || i+j == No+1)
             {
